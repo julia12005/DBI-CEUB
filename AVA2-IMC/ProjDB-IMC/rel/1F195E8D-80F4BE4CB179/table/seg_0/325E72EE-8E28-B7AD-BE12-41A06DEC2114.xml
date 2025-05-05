@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="325E72EE-8E28-B7AD-BE12-41A06DEC2114" name="ImcHistorico">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>4D97408E-4CC0-DB55-1DCB-94C5157E1AC5</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataMedicao" id="AEC53A07-4E8C-F37B-00B8-875A52BC69AE">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>1D6EE7C0-3923-C1CD-70DD-5A89592124A1</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="8CFB5C43-0AFA-40F8-DE16-67783A0DF1F2">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>F7CD1C6B-B9E9-24A6-4610-5979A852B386</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoMedicao" id="BCA7CA2E-A171-2B8D-4C14-FE807BB39796">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>6BE7CC6D-FE2E-B373-6211-0AEFB3B057F8</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturaMedicao" id="09615D6C-7365-915E-5509-852126650898">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>380CBE27-9C62-C6D2-81ED-C9D1A021D268</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="o" id="298B5F65-484F-44C6-175F-E545DA0F91F4">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>BBA70667-EEB2-2E13-4BCB-CEFDD7E48311</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44464E50-0745-6617-4DAF-50B2DF20A1AF" referredColumn="B1E94E69-5F48-A5FF-0B51-C102F7E2CD91"/>
+</associations>
+</Column>
+<Column name="virimcPessoa" id="E7DB4F36-61E2-3A9B-6E1C-77E055E91CF5">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>066F89F0-9AF6-868E-E25B-36092EF24D09</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseImcPessoa" id="51554A6F-30C3-A173-1212-4516F92CDBE6">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>425DD659-3C16-F690-F455-8495DB629FB7</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F40EEC1B-1BCE-66FE-5BCE-F3EE625B6075" name="ImcHistorico_PK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>7E676D8C-FF64-B701-E1A3-B200EBD37F99</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC53A07-4E8C-F37B-00B8-875A52BC69AE"/>
+<colUsage columnID="8CFB5C43-0AFA-40F8-DE16-67783A0DF1F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D92E1FE-A30A-3DDF-8410-3CE8B72DA781" name="calcula">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 23:46:10 UTC</createdTime>
+<generatorID>DDB17109-3A68-E63B-B6A9-575A6520FE56</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="298B5F65-484F-44C6-175F-E545DA0F91F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

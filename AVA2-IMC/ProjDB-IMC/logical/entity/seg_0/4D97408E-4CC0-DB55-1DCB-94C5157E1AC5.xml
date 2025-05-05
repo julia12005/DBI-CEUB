@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D97408E-4CC0-DB55-1DCB-94C5157E1AC5" name="ImcHistorico">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-08 00:31:12 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataMedicao" id="1D6EE7C0-3923-C1CD-70DD-5A89592124A1">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-08 00:31:47 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="F7CD1C6B-B9E9-24A6-4610-5979A852B386">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 22:43:35 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoMedicao" id="6BE7CC6D-FE2E-B373-6211-0AEFB3B057F8">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-08 00:36:15 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaMedicao" id="380CBE27-9C62-C6D2-81ED-C9D1A021D268">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-08 00:39:34 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="o" id="BBA70667-EEB2-2E13-4BCB-CEFDD7E48311">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 22:37:32 UTC</createdTime>
+<generatorID>DDB17109-3A68-E63B-B6A9-575A6520FE56</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>47124113-0233-E60D-EEAA-CD1E9A4D9F40</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="virimcPessoa" id="066F89F0-9AF6-868E-E25B-36092EF24D09">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 22:44:41 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseImcPessoa" id="425DD659-3C16-F690-F455-8495DB629FB7">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 22:44:42 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E676D8C-FF64-B701-E1A3-B200EBD37F99" name="ImcHistorico_PK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-04-28 22:39:07 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1F195E8D-5044-0C4B-E7AE-80F4BE4CB179" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D6EE7C0-3923-C1CD-70DD-5A89592124A1</attributeRef>
+<attributeRef>F7CD1C6B-B9E9-24A6-4610-5979A852B386</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

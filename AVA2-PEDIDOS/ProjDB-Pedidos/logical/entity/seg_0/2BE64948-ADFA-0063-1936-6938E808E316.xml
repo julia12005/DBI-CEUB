@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BE64948-ADFA-0063-1936-6938E808E316" name="Item">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-05 23:52:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoItem" id="9A53805A-50DB-4BCF-090E-C6CA6ED8C03A">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:02:56 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoItem" id="57FEA5A2-57A0-06A9-C23F-040BF392142B">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:03:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeItem" id="ABE90CDE-ECCB-3223-0D7D-AFDD3C2A13BB">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:06:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioItem" id="5053D493-A170-CDFB-13DD-E92EDA1EC907">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:07:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoPedido" id="954F4152-C8A2-0346-5FB2-778F6BBCDDBC">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:25:15 UTC</createdTime>
+<generatorID>C077273E-4180-7098-0AAF-0753819EC4A1</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<referedAttribute>D4018765-D5F7-2BE5-334E-7C3665F3EBC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F1906A0-15B8-780F-1150-8E8B9DFAF50E" name="Item PK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:03:47 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A53805A-50DB-4BCF-090E-C6CA6ED8C03A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

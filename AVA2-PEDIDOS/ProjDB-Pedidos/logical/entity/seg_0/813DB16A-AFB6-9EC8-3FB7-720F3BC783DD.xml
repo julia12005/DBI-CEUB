@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="813DB16A-AFB6-9EC8-3FB7-720F3BC783DD" name="Vendedor">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-05 23:40:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matriculaVendedor" id="7A9A8835-DA9E-7892-EDC2-392220A87CA3">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-05 23:43:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeVendedor" id="F9BC7004-AF05-8D7B-D933-819FD82E0EE4">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-05 23:43:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoPedido" id="4B6CF023-06D3-BA95-90C6-221A9E49C71E">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:21:50 UTC</createdTime>
+<generatorID>18E46B2D-6E26-6DA2-D09B-5C228FAE309C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<referedAttribute>D4018765-D5F7-2BE5-334E-7C3665F3EBC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D3C1FFD-458A-6F3A-7D63-FEF989126C89" name="Vendedor PK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-05 23:42:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5EC9521F-7578-88CE-2063-7B4344B9197E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A9A8835-DA9E-7892-EDC2-392220A87CA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

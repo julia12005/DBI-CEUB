@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1717059-68E4-0218-B7E7-178836CB3A69" name="Pedido">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>B0CC04EE-B03D-5A6C-B329-D08EA101E4E9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoPedido" id="07B8EC4D-B8E0-B1AF-AAF0-96F22A6E51F5">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>D4018765-D5F7-2BE5-334E-7C3665F3EBC4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataHoraPedido" id="C1B9B5A8-B872-8870-92DF-92E473E03790">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>08220340-90F4-1F47-C4B2-73459DE8140D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statusPedido" id="A47D6239-6DC3-6BD1-793B-074972492A36">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>BB74CEB2-31EE-6BE4-8D40-17BBB205E474</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matriculaVendedor" id="E33F11F8-25EF-67A2-0143-5758DFD837FB">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>8FFB12FF-BC00-4BB6-7748-EFC543E66292</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDE893CA-0070-522E-8E63-8A9F458641E3" referredColumn="46B02547-42CC-5487-F22D-FC4E7AAB810D"/>
+</associations>
+</Column>
+<Column name="cpfCliente" id="72AFD7DD-FFC8-91BD-E724-9DEB780CEBE1">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>F8C27D9E-A209-84FE-E5F5-35500A8D4DE9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3133256-EDE1-E99D-6A3C-B129E5136CAF" referredColumn="26BDD810-E3D5-68F9-9DB1-7EE3AAE00DCD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB21A61A-44E3-BCB8-207B-DA301CA81D90" name="Pedido_PK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>A7165947-41CD-6062-DB7D-BB46E0C27AA7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07B8EC4D-B8E0-B1AF-AAF0-96F22A6E51F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="264DE45E-A434-05A0-AA7B-B70A0514C486" name="Pedido__IDX">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>18E46B2D-6E26-6DA2-D09B-5C228FAE309C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E33F11F8-25EF-67A2-0143-5758DFD837FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14D4819E-F750-6E1C-8303-596C90B821C9" name="Pedido__IDXv1">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E64B4ABC-0381-274F-0F29-FDC422A457DB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="72AFD7DD-FFC8-91BD-E724-9DEB780CEBE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50DC7F61-AB26-6490-7B3B-B7C09050BD16" name="Pedido_Vendedor_FK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>18E46B2D-6E26-6DA2-D09B-5C228FAE309C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E33F11F8-25EF-67A2-0143-5758DFD837FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3E00FAA-B47B-5C78-6001-88E6F8294D92" name="Pedido_Cliente_FK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>E64B4ABC-0381-274F-0F29-FDC422A457DB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72AFD7DD-FFC8-91BD-E724-9DEB780CEBE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A38C2C8-E2E2-B529-C66D-040829D983CE" name="Vendedor">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>813DB16A-AFB6-9EC8-3FB7-720F3BC783DD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matriculaVendedor" id="46B02547-42CC-5487-F22D-FC4E7AAB810D">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>7A9A8835-DA9E-7892-EDC2-392220A87CA3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeVendedor" id="25A902C8-96B9-C3CA-11DA-59620F7D612F">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>F9BC7004-AF05-8D7B-D933-819FD82E0EE4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoPedido" id="B771E3BE-0E8F-9A2C-6191-1E6B246D2739">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>4B6CF023-06D3-BA95-90C6-221A9E49C71E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E05D644-80E8-EB79-5558-9ECD129E6AB6" referredColumn="07B8EC4D-B8E0-B1AF-AAF0-96F22A6E51F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78B5227D-4BF5-0D5D-D3F0-71868036A0E4" name="Vendedor_PK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>9D3C1FFD-458A-6F3A-7D63-FEF989126C89</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B02547-42CC-5487-F22D-FC4E7AAB810D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="493BF9A5-9355-2DF6-5A89-28292C606C37" name="Vendedor__IDX">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>18E46B2D-6E26-6DA2-D09B-5C228FAE309C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B771E3BE-0E8F-9A2C-6191-1E6B246D2739"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B637EB2-6595-48F8-14EB-03E0E066C734" name="Vendedor_Pedido_FK">
+<createdBy>julia.p.b</createdBy>
+<createdTime>2025-05-06 00:27:53 UTC</createdTime>
+<generatorID>18E46B2D-6E26-6DA2-D09B-5C228FAE309C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B771E3BE-0E8F-9A2C-6191-1E6B246D2739"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
